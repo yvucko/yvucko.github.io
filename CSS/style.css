@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Nunito', sans-serif;
     height: 100vh;
     background-color: rgb(243, 243, 243);
 }
@@ -41,12 +41,12 @@ a:hover{
     border-radius: 5px;
     padding: 0.2em;
     background-color: rgba(0, 0, 0, 0.356);
-    font-size: 1.05em;
+    font-size: 0.95em;
 }
 
 .contact-link-bloc{
-    margin-top: 0.8em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .underline{
