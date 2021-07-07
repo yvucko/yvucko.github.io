@@ -41,12 +41,12 @@ a:hover{
     border-radius: 5px;
     padding: 0.2em;
     background-color: rgba(0, 0, 0, 0.356);
+    font-size: 1.05em;
 }
 
 .contact-link-bloc{
     margin-top: 0.8em;
     margin-bottom: 1em;
-   
 }
 
 .underline{
