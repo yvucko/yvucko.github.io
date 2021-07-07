@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+}
+
+header{
+    background-image: url("../IMG/John\ Martin\,\ The\ Deluge\,\ 1834.jpg");
+    background-size: cover;
+}
+
+a:hover{
+    color: rgb(200, 200, 200);
+}
+
+
+.title-dark{
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 0, 0);
+}
+
+.title-light{
+    font-family: 'Special Elite', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.bg-1{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contact{
+    color: rgb(255, 255, 255);
+}
+
+.underline{
+    text-decoration: underline black;
+}
+
+.custom-btn-1{
+    background-color: white;
+    padding: 0.4em;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.custom-btn-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.custom-shadow{
+    box-shadow: 0px 0px 10px rgba(58, 58, 58, 0.521);
+}
+
+.custom-shadow:hover{
+    box-shadow: 0px 0px 30px rgb(105, 1, 1);
+    transition-duration: 1s;
+}
+
+#contact-link{
+    text-decoration: none;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* ANIMATION BUTTON NEON */
+#neon{
+    border:none;
+    border-radius:10px;
+    transition:3s;
+    animation: glow 2s infinite ;
+    transition:3s;
+  }
+  
+  #neon:hover{
+      background-color:rgb(243, 243, 243);
+      transition:0.5s;
+    }
+  
+    @keyframes glow{
+      0%{
+      box-shadow: 5px 5px 20px rgb(161, 0, 0),-5px -5px 20px rgb(161, 0, 0);}
+      
+      50%{
+      box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.534),-5px -5px 20px rgb(179, 179, 179)
+      }
+      100%{
+      box-shadow: 5px 5px 20px rgb(161, 0, 0),-5px -5px 20px rgb(161, 0, 0)
+      }
+    }
+    /* FIN ANIMATION BUTTON NEON */
+
+
+
+/* DEBUT ANIMATION TITRE */
+.custom-animation-1{
+    animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+    2%,64%{
+        transform: translate(2px,0) skew(0deg);
+    }
+    4%, 60%{
+        transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+        transform: translate(0,0) skew(5deg);
+    }
+}
+
+.custom-animation-1:before, .custom-animation-1:after{
+content: attr(title);
+position: absolute;
+left: 0;
+}
+
+.custom-animation-1:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+    2%, 64%{
+        transform: translate(2px, -2px);
+    }
+    4%, 60%{
+        transform: translate(-2px, 2px);
+    }
+    62%{
+        transform: translate(13px,-1px) skew(-13deg);
+    }
+}
+
+.custom-animation-1:after{
+    animation: glitchBottom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBottom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+  /* FIN ANIMATION TITRE */
+
+  /* ANIMATION FALLDOWN BLOC */
+  .custom-animation-2 {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+    }
+    
+    60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+    }
+    
+    75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+    }
+    
+    90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+    }
+    
+    100% {
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    
+    @keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+    }
+    
+    60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+    }
+    
+    75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+    }
+    
+    90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+    }
+    
+    100% {
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+    /* FIN ANIMATION */
