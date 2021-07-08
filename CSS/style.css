@@ -46,6 +46,16 @@ rgba(147,147,147,1) 89%);
 border-radius: 5px;
 }
 
+.bg-3{
+    background: rgb(245,245,245);
+    background: linear-gradient(119deg,
+    rgba(245,245,245,1) 20%,
+    rgba(247,247,247,1) 24%, 
+    rgba(255,255,255,1) 82%,
+    rgba(245,245,245,1) 94%);
+    border-radius: 5px;
+}
+
 .contact{
     color: rgb(255, 255, 255);
     border-radius: 5px;
