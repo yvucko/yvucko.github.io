@@ -19,7 +19,6 @@ a:hover{
     color: rgb(200, 200, 200);
 }
 
-
 .title-dark{
     font-family: 'Merriweather', serif;
     color: rgb(0, 0, 0);
@@ -31,26 +30,55 @@ a:hover{
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
+
 .bg-1{
     background-color: white;
     border-radius: 10px;
+}
+
+.bg-2{
+    background: #E9ECEF;
+    backdrop-filter: blur( 8.0px );
+    -webkit-backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.bg-3{
+    background: #DEE2E6;
+    backdrop-filter: blur( 8.0px );
+    -webkit-backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.bg-4{
+    background: #CED4DA;
+    backdrop-filter: blur( 8.0px );
+    -webkit-backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.bg-5{
+    background: #ADB5BD;
+    backdrop-filter: blur( 8.0px );
+    -webkit-backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .contact{
     color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 0.2em;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(0, 0, 0, 0.712);
     font-size: 0.95em;
 }
 
 .contact-link-bloc{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-}
-
-.underline{
-    text-decoration: underline black;
 }
 
 .custom-btn-1{
