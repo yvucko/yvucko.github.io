@@ -37,31 +37,7 @@ a:hover{
 }
 
 .bg-2{
-    background: #E9ECEF;
-    backdrop-filter: blur( 8.0px );
-    -webkit-backdrop-filter: blur( 8.0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-.bg-3{
-    background: #DEE2E6;
-    backdrop-filter: blur( 8.0px );
-    -webkit-backdrop-filter: blur( 8.0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-.bg-4{
     background: #CED4DA;
-    backdrop-filter: blur( 8.0px );
-    -webkit-backdrop-filter: blur( 8.0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
-.bg-5{
-    background: #adb5bdc2;
     backdrop-filter: blur( 8.0px );
     -webkit-backdrop-filter: blur( 8.0px );
     border-radius: 10px;
@@ -99,7 +75,7 @@ a:hover{
 }
 
 .custom-shadow:hover{
-    box-shadow: 0px 0px 30px rgb(105, 1, 1);
+    box-shadow: 0px 0px 10px rgb(105, 1, 1);
     transition-duration: 1s;
 }
 
