@@ -37,11 +37,13 @@ a:hover{
 }
 
 .bg-2{
-    background: #CED4DA;
-    backdrop-filter: blur( 8.0px );
-    -webkit-backdrop-filter: blur( 8.0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgb(147,147,147);
+background: linear-gradient(150deg,
+rgba(147,147,147,1) 2%, 
+rgba(255,255,255,1) 41%, 
+rgba(245,245,245,1) 58%, 
+rgba(147,147,147,1) 89%);
+border-radius: 5px;
 }
 
 .contact{
