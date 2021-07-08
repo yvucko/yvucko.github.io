@@ -61,7 +61,7 @@ a:hover{
 }
 
 .bg-5{
-    background: #ADB5BD;
+    background: #adb5bdc2;
     backdrop-filter: blur( 8.0px );
     -webkit-backdrop-filter: blur( 8.0px );
     border-radius: 10px;
