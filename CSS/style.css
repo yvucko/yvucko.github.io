@@ -15,6 +15,10 @@ header{
     background-size: cover;
 }
 
+footer{
+    background-color: black;
+}
+
 a:hover{
     color: rgb(200, 200, 200);
 }
